@@ -30,7 +30,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
 
-        <provider android:name="EmployeeYear" android:authorities="com.example.MyApplication.StudentsProvider"/>
+        <provider android:name="EmployeeYear" android:authorities="com.example.MyApplication.EmployeeYear"/>
 
     </application>
 

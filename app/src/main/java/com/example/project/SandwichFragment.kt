@@ -9,7 +9,7 @@ class SandwichFragment {
 
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             val cancelbt : Button = view.findViewById(R.id.cancelbtn);
-            val submitbt : Button = view.findViewById(R.id.submitBtn);
+            val submitbt : Button = view.findViewById(R.id.submitBtn2);
             val radioGroup = view.findViewById<RadioGroup>(R.id.sandwichRadioGroup)
             cancelbt.setOnClickListener{
                 dismiss()

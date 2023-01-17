@@ -8,7 +8,7 @@ class PizzaFragment {
     class PizzaFragment:DialogFragment(R.layout.fragment_pizza) {
 
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-            val cancelbt : Button = view.findViewById(R.id.cancelbtn);
+            val cancelbt : Button = view.findViewById(R.id.cancelbtn2);
             val submitbt : Button = view.findViewById(R.id.submitBtn);
             val radioGroup = view.findViewById<RadioGroup>(R.id.pizzaRadioGroup)
             cancelbt.setOnClickListener{
